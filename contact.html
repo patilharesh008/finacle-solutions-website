@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Finotax Filling-Contact</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+		<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+			<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+			<link rel="stylesheet" href="style.css">
+			<link rel="stylesheet" href="custom.css">
+			<link rel="stylesheet" href="style1.css">
+		</head>
+		<body id="top">
+		<div class="wrapper row1">
+			<header id="header" class="hoc clear"> 
+				<div id="logo" class="fl_left">
+				  <h1><a href="index.html">Finotax <span class="logo-name">Filling</span></a></h1>
+				</div>
+				<nav id="mainav" class="fl_right">
+				  <ul class="clear">
+				    <li class="active"><a href="index.html">Home</a></li>
+				    <li><a href="about.html">About Us</a>
+				    </li>
+				    <li><a class="drop" href="services.html">Services</a>
+				      <ul>
+				        <li><a href="#">Direct Tax Services</a>
+				          <ul>
+				            <li><a href="corporate-personal-tax-compliance.html">Corporate/Personal Tax Compliance</a></li>
+				            <li><a href="tax-auditng.html">Tax Auditng</a></li>
+				            <li><a href="tax-planing.html">Tax Planing</a></li>
+				            <li><a href="tds-tcs-compilance.html">TDS/TCS Compilance</a></li>
+				          </ul>
+				        </li>
+				        <li><a href="#">Indirect Tax Services</a>
+				          <ul>
+				            <li><a href="gst-compliances.html">GST Compliances</a></li>
+				            <li><a href="excise-related-services.html">Excise Related Services</a></li>
+				            <li><a href="professional-tax-compliance.html">Professional Tax Compliance</a></li>
+				          </ul>
+				        </li>
+				        <li><a href="#">Book Keeping</a>
+				          <ul>
+				            <li><a href="business-accounting.html">Business Accounting</a></li>
+				            <li><a href="labor-law-compliances.html">Labor Law Compliances</a></li>
+				          </ul>
+				        </li>
+				        <li><a href="#">Start Up Services</a>
+				           <ul>
+				             <li><a href="company-registration.html">Company Registration</a></li>
+				             <li><a href="llp-registration.html">LLP Registration</a></li>
+				             <li><a href="partnership-formation.html">Partnership Formation</a></li>
+				             <li><a href="sole-proprietorship.html">Sole Proprietorship</a></li>
+				             <li><a href="hindu-undivided-family.html">Hindu Undivided Family (HUF)</a></li>
+				             <li><a href="other-registration.html">Other Registration</a></li>
+				           </ul>
+				         </li>
+				      </ul>
+				    </li>
+				    <li><a href="contact.html">Contact Us</a></li>
+				  </ul>
+				</nav>
+			             </header>
+		</div>
+<div class="wrapper bgded overlay" style="background-image:url('images/contact-background.webp');">
+               <article class="hoc container center"> 
+                 <h6 class="heading font-x3">Contact Us</h6>
+               </article>
+             </div>
+	<!--================================
+        END BREADCRUMB AREA
+    =================================-->
+
+	<!--================================
+        START AFFILIATE AREA
+    =================================-->
+
+	<section class="contact-area" >
+		<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="contact_form cardify">
+							    <div class="contact_form__title">
+							        <h3>CONTACT US</h3>
+							    </div>
+							    <div class="contact_form--wrapper">
+													<form enctype="multipart/form-data" name="contact-form"
+															method="POST" id="contact-from" onsubmit="return submitContact()">
+															<div class="row">
+																<div class="col-md-6">
+																	<label for="edit-submitted-name"> First Name <span
+																			class="form-required text-danger font-star-text"
+																			title="This field is required.">*</span></label>
+																	<div class="form-group">
+																		<input type="text" required
+																			placeholder="First Name" id="infname">
+																	</div>
+																</div>
+
+																<div class="col-md-6">
+																	<label for="edit-submitted-name">Last Name <span
+																			class="form-required text-danger font-star-text"
+																			title="This field is required.">*</span></label>
+																	<div class="form-group">
+																		<input type="text" required
+																			placeholder="Last Name" id="inlname">
+																	</div>
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-md-6">
+																	<label for="edit-submitted-name">Mobile Number <span
+																			class="form-required text-danger font-star-text"
+																			title="This field is required.">*</span></label>
+																	<div class="form-group">
+																		<input type="text" required placeholder="Mobile"
+																			id="mobile" maxlength="10">
+																	</div>
+																</div>
+
+																<div class="col-md-6">
+																	<label for="edit-submitted-name"> Email <span
+																			class="form-required text-danger font-star-text"
+																			title="This field is required.">*</span></label>
+																	<div class="form-group">
+																		<input type="email" required placeholder="Email"
+																			id="email">
+																	</div>
+																</div>
+
+
+															</div>
+															<div>
+																<div class="col-md-6">
+																	<label for="edit-submitted-name"> Address <span
+																			class="form-required text-danger font-star-text"
+																			title="This field is required.">*</span></label>
+																	<div class="form-group">
+																		<textarea cols="30" rows="10"
+																			class="contact-address" required
+																			placeholder="Address"
+																			id="address"></textarea>
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<label for="edit-submitted-name"> Message <span
+																			class="form-required text-danger font-star-text"
+																			title="This field is required.">*</span></label>
+																	<div class="form-group">
+																		<textarea cols="30" rows="10" required
+																			id="message"
+																			placeholder="Yout text here"></textarea>
+																	</div>
+																</div>
+																
+
+															</div>
+															<div class="sub_btn">
+																<button type="submit" id="submit-btn"
+																	class="btn btn--round btn--default">Submit</button>
+															</div>
+															<div id="con-loader" style="display: none;"><span
+																	class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"
+																	style="font-size: 30px;"></span>&nbsp;&nbsp;Submitting
+																your request....</div>
+															<div id="con-success" style="display: none;"><span
+																	class="fa fa-check"
+																	style="font-size: 30px;"></span>&nbsp;&nbsp;Success,
+																Thank you for contacting us. We'll get back to you
+																shortly.</div>
+														</form>
+													</div>
+							   
+					  
+							   
+							  
+							    <!-- end /.row -->
+							</div>
+
+							<!-- end /.contact_form -->
+						           </div>
+
+						<!-- end /.col-md-12 -->
+					</div>
+					<!-- end /.row -->
+				
+				<!-- end /.col-md-12 -->
+			</div>
+			<!-- end /.row -->
+		</div><br>
+		<!-- end /.container -->
+	</section>
+	<!--================================
+        END BREADCRUMB AREA
+    =================================-->
+
+	<!--================================
+            START
+    =================================-->
+	<!-- <div id="map"></div> -->
+	<!-- end /.map -->
+	<!--================================
+            END FAQ AREA
+    =================================-->
+<!-- <a href="https://api.whatsapp.com/send?phone=+9197672 19745&amp;text=Hi%2C%20I%20am%20interested%20in%20your%20services.%20Can%20you%20call%20me%20back%3F">
+    <div id="call-over">Contact us on WhatsApp</div>
+</a> -->
+	<!--================================
+        START FOOTER AREA
+    =================================-->
+	    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<div class="wrapper row4 bgded overlay" style="background-image:url" alt="audit">
+	<footer id="footer" class="hoc clear"> 
+	  <div class="one_third first">
+	    <h6 class="heading">Finotax Filling</h6>
+	    <ul class="nospace linklist contact">
+	      <li><i class="fa fa-map-marker"></i>
+	        <address>
+	      Near by F.C. road Pune&amp; Gate No 1, Pune Maharashtra,411011
+	        </address>
+	      </li>
+	      <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
+	      <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
+	      <li><i class="fa fa-envelope-o"></i>finotaxfilling@gmail.com</li>
+	    </ul>
+	  </div>
+	  <div class="one_third">
+	    <h6 class="heading">Quick Links</h6>
+	    <ul class="nospace linklist contact">
+	      <li class="footer-quick-link"><a href="index.html">Home</a></li>
+	      <li  class="footer-quick-link"><a href="about.html"> About Us</a></li>
+	      <li  class="footer-quick-link"><a href="services.html">Services</a></li>
+	      <li  class="footer-quick-link"><a href="contact.html">Contact Us</a></li>
+	    </ul>
+	  </div>
+	  <div class="one_third">
+	    <h6 class="heading">Finotax Filling Location</h6>
+	    <ul class="nospace linklist">
+	      <li>
+	        <article>
+	          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199614953!2d73.72288117003453!3d18.524564859944654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1601822583675!5m2!1sen!2sin" width="340" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	        </article>
+	      </li>
+	    </ul>
+	  </div>
+	</footer>
+             </div>
+             <div class="wrapper row5">
+	<div id="copyright" class="hoc clear"> 
+	  <p class="fl_left">Copyright &copy; 2020- All Rights - <a href="#">Finotax Filling</a></p>
+	  <p class="fl_right">Get In Touch&nbsp;<a target="_blank" href="#" title="Free Website Templates">Visit Again!</a></p>
+	</div>
+             </div>
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src="layout/scripts/jquery.flexslider-min.js"></script>	<!--================================
+        END FOOTER AREA
+    =================================-->
+
+	<!--//////////////////// JS GOES HERE ////////////////-->
+
+	
+	<!-- inject:js -->
+	<script src="js/vendor/jquery/jquery-1.12.3.js"></script>
+	<script src="js/vendor/jquery/popper.min.js"></script>
+	<script src="js/vendor/jquery/uikit.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/vendor/chart.bundle.min.js"></script>
+	<script src="js/vendor/grid.min.js"></script>
+	<script src="js/vendor/jquery-ui.min.js"></script>
+	<script src="js/vendor/jquery.barrating.min.js"></script>
+	<script src="js/vendor/jquery.countdown.min.js"></script>
+	<script src="js/vendor/jquery.counterup.min.js"></script>
+	<script src="js/vendor/jquery.easing1.3.js"></script>
+	<script src="js/vendor/owl.carousel.min.js"></script>
+	<script src="js/vendor/slick.min.js"></script>
+	<script src="js/vendor/tether.min.js"></script>
+	<script src="js/vendor/trumbowyg.min.js"></script>
+	<script src="js/vendor/waypoints.min.js"></script>
+	<script src="js/dashboard.js"></script>
+	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		function subscribe() {
+			$('#sub-loader').show();
+			$.post("subscriptionEmail.php",
+				{
+					email: $('#subscribe-email').val()
+				},
+				function (response, status) {
+					$('#subscribe-email').val('');
+					$('#sub-loader').hide();
+					$('#sub-success').show();
+				});
+			return false;
+		}
+	</script>
+	<script type="text/javascript">
+	    //$(function() {
+	    //     $('#submit-btn').on('click', function(e) {
+    	function submitContact(){
+    			$('#con-loader').show();
+    			var message = $("#message").val(),
+    				name = $("#infname").val() + ' ' + $("#inlname").val(),
+    				email = $("#email").val(),
+    				mobile = $("#mobile").val(),
+    				products = $("#products").val(),
+    				address = $("#address").val();
+    			// Send the data using post
+    			$.post('contactEmail.php',
+    				{
+    					message: message,
+    					name: name,
+    					email: email,
+    					mobile: mobile,
+    					address: address,
+    					products: products
+    				},
+    				function (data, status) {
+    					$("#message").val('');
+    					$("#infname").val('');
+    					$("#inlname").val('');
+    					$("#email").val('');
+    					$("#mobile").val('');
+    					$("#address").val('');
+    					$("#products").val(''),
+    						$('#con-loader').hide();
+    					$('#con-success').show();
+    				}
+    			);
+    			return false;
+    	}		
+    	//	});    
+	    //});     
+		
+	</script>
+	<!-- endinject -->
+	<script type="text/javascript"
+		src="https://counter4.wheredoyoucomefrom.ovh/private/counter.js?c=hdygdkthdp968t9rexppqewx1f4bday9&down=async"
+		async></script>
+	<noscript><a href="https://www.freecounterstat.com" title="html code for visitor counter"><img
+				src="https://counter4.wheredoyoucomefrom.ovh/private/freecounterstat.php?c=hdygdkthdp968t9rexppqewx1f4bday9"
+				border="0" title="html code for visitor counter" alt="html code for visitor counter"></a></noscript>
+	<!-- <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyBeySPFGz7DIUTrReCRQT6HYaMM0ia0knA"></script> -->
+	<!-- <script src="js/map.js"></script> -->
+	<!-- endinject -->
+
+</body>
+
+</html>
